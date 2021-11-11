@@ -60,18 +60,18 @@ public class MissionServiceImpl implements IMissionService{
 	
 
 	@Override
-	public List<Mission> getAllMissionByDepartment(Departement department) {
-		//return missRepoistory.getMissionByDepartmentID(department.getId());
+	public List<Mission> getAllMissionByDepartment(int department) {
+		//return missRepoistory.getMissionByDepartmentID(department);
 		return null;
 	}
 
 	@Override
-	public void assignDepartmentToMission(Departement department, int MissionId) {
-		//missRepoistory.assignDepartmentToMission(department.getId(), MissionId);
+	public void assignDepartmentToMission(int department, int MissionId) {
+		//missRepoistory.assignDepartmentToMission(department, MissionId);
 	}
 
 	@Override
-	public void assignMissionToTimeSheet(Mission mission) {
+	public void assignMissionToTimeSheet(int mission) {
 		// TODO Auto-generated method stub
 		
 	}

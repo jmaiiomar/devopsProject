@@ -11,9 +11,9 @@ public interface IMissionService {
 	public void updateMissionById(int MissionId, Mission miss);
 	public List<Mission> getAllMissions();
 	public Mission getMissionById(int MissionId);
-	public List<Mission> getAllMissionByDepartment(Departement department);
-	public void assignDepartmentToMission(Departement department,int MissionId);
-	public void assignMissionToTimeSheet(Mission mission);
+	public List<Mission> getAllMissionByDepartment(int department);
+	public void assignDepartmentToMission(int department,int MissionId);
+	public void assignMissionToTimeSheet(int mission);
 	public List<Mission> getAllMissionsByEmailFact(String email);
 	public int getSumofAverageDayRateJPQL();
 }
